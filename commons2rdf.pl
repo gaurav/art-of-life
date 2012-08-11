@@ -64,8 +64,10 @@ my $parser = Parse::RecDescent->new(q#
 
     startrule: block(s?) {[@item]} | <error>
     block: template_with_param | template_without_param | non_template_text | <error>
-    template_without_param: /\s*{{\s*/s template_name /\s*}}\s*/s {[$item[2]]} | <error>
-    template_with_param: /\s*{{\s*/s template_name /\s*\|\s*/ block(s?) /\s*}}\s*/s {[$item[2], $item[4]]} | <error>
+    template_without_param: /\s*{{\s*/s template_name /\s*}}\s*/s {'Template:' . $item[2]} | <error>
+    template_with_param: /\s*{{\s*/s template_name /\s*\|\s*/ block(s?) /\s*}}\s*/s 
+        {['Template:' . $item[2], $item[4]]}
+        | <error>
     template_name: /(?:(?!{{)(?!}})(?!\|).)+/s
     non_template_text: /(?:(?!{{)(?!}}).)+/s
 #);
