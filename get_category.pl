@@ -8,15 +8,19 @@ get_category.pl - Retrieve all the images in a category.
 
     get_category.pl "Category:Files from the Biodiversity Heritage Library"
 
-Returns the names of all the images in that category.
-
-    get_category.pl -r "Category:Files from the Biodiversity Heritage Library"
-
-Returns the names of all the images from that category, and all subcategories.
+Returns the names of all the images in that category, and in subcategories
+up to $RECURSION_LIMIT.
 
 =head1 OUTPUT
 
-Should be a list of newline-separated
+STDOUT has a list of newline-separated filenames. STDERR has information 
+about which categories were accessed. STDOUT has tabs to clarify which
+category each file is from, but 
+
+=head1 LIMIT
+
+At the moment, the limit is up to 100,000 images. There is currently
+no test to see if we've hit this limit.
 
 =cut
 
@@ -28,6 +32,12 @@ use warnings;
 use MediaWiki::API;
 use RDF::Helper;
 use URI::Escape;
+
+# Constants.
+my $RECURSION_LIMIT = 5;
+my $REQUEST_LIMIT = 1000;       # x 100: each request can retrieve 100 entries.
+                                # The MediaWiki API will make $REQUEST_LIMIT
+                                # separate requests.
 
 # utf8 output
 binmode STDOUT, ':utf8';
@@ -80,9 +90,9 @@ given($url) {
 
             $tablevel = "" unless defined $tablevel;
 
-            # Don't recurse more than 3 levels!
+            # Don't recurse more than $RECURSION_LIMIT levels!
             $recurse_count++;
-            if($recurse_count > 3) {
+            if($recurse_count >= $RECURSION_LIMIT) {
                 say STDERR "${tablevel}Bailing out; recursion limit hit.";
             }
 
@@ -94,7 +104,7 @@ given($url) {
                 # cmtype => 'file', -- ignored when looking by timestamp.
                 cmsort => 'timestamp'
             }, { 
-                max => 100,
+                max => $REQUEST_LIMIT,
                 hook => sub {
                     my ($sublist) = @_;
 
@@ -106,12 +116,21 @@ given($url) {
                             list_category($1, "$tablevel\t");
                             $count_categories++;
                         } else {
-                            say $tablevel . $title;
+
+                            # If STDOUT is a terminal, write tabs so the output
+                            # is pretty; otherwise, just print it one line at
+                            # a time.
+                            if(-t STDOUT) {
+                                say $tablevel . $title;
+                            } else {
+                                say $title;
+                            }
+
                             $count_files++;
                         }
                     }
                 }
-            });
+            }) || die $mw->{error}->{code} . ': ' . $mw->{error}->{details};
 
             $recurse_count--;
         }
