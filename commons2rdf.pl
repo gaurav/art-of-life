@@ -74,13 +74,18 @@ $::RD_HINT = 0;
 my $parser = Parse::RecDescent->new(q#
 
     startrule: block(s?) {[@item]} | <error>
-    block: template_with_param | template_without_param | non_template_text | <error>
+    block: template_with_param | template_without_param | non_template_text | link | <error>
     template_without_param: /\s*{{\s*/s template_name /\s*}}\s*/s {'Template:' . $item[2]} | <error>
     template_with_param: /\s*{{\s*/s template_name /\s*\|\s*/ block(s?) /\s*}}\s*/s 
         {['Template:' . $item[2], $item[4]]}
         | <error>
     template_name: /(?:(?!{{)(?!}})(?!\|).)+/s
-    non_template_text: /(?:(?!{{)(?!}}).)+/s
+    non_template_text: /(?:(?!{{)(?!}})(?!\[\[)(?!\]\]).)+/s
+
+    link: "[[" non_link_text "]]" 
+        {['Template:template_link', [$item[2]]]}
+        | <error>
+    non_link_text: /(?:(?!\[\[)(?!\]\]).)+/s
 #);
 
 use Data::Dumper;
@@ -108,13 +113,15 @@ sub collect_template_info {
         my $nextnode = $parsetree[$x+1];
 
         if(ref($node) eq 'ARRAY') {
-            collect_template_info($node, $current_template, 0);
+            collect_template_info($node, $current_template, $flag_in_template);
         } else {
             print "Examining node <<$node>>";
             print " (current template: " . $current_template->{'template_name'} . ")"
                 if defined $current_template;
 
             if($node =~ /^Template:/) {
+                chomp $node;
+
                 if(ref($nextnode) eq 'ARRAY') {
                     print ": a node template!";
 
@@ -150,7 +157,14 @@ sub collect_template_info {
                 foreach my $attribute (@attributes) {
                     next if $attribute =~ /^\s*$/;
 
-                    my ($key, $value) = split(/\s*=\s*/, $attribute);
+                    my $key;
+                    my $value;
+                    if($attribute =~ /^\s*(\w+)\s*=\s*(.*)\s*$/) {
+                        $key = $1;
+                        $value = $2;
+                    } else {
+                        $key = $attribute;
+                    }
 
                     if(defined $value) {
                         $current_template->{$key} = $value;
