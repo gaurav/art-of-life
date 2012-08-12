@@ -75,17 +75,23 @@ my $parser = Parse::RecDescent->new(q#
 
     startrule: block(s?) {[@item]} | <error>
     block: template_with_param | template_without_param | non_template_text | link | <error>
-    template_without_param: /\s*{{\s*/s template_name /\s*}}\s*/s {'Template:' . $item[2]} | <error>
+    template_without_param: /\s*{{\s*/s template_name /\s*}}\s*/s 
+        {['Template:' . $item[2] ]} 
+        | <error>
     template_with_param: /\s*{{\s*/s template_name /\s*\|\s*/ block(s?) /\s*}}\s*/s 
         {['Template:' . $item[2], $item[4]]}
         | <error>
     template_name: /(?:(?!{{)(?!}})(?!\|).)+/s
     non_template_text: /(?:(?!{{)(?!}})(?!\[\[)(?!\]\]).)+/s
 
-    link: "[[" non_link_text "]]" 
-        {['Template:template_link', [$item[2]]]}
+    link: link_with_name | link_without_name | <error>
+    link_without_name: "[[" non_link_text "|" non_link_text "]]"
+        {['Template:template_url', [$item[2], $item[4]]] }
         | <error>
-    non_link_text: /(?:(?!\[\[)(?!\]\]).)+/s
+    link_with_name: "[[" non_link_text "]]" 
+        {['Template:template_url', [$item[2]]] }
+        | <error>
+    non_link_text: /(?:(?!\[\[)(?!\]\])(?!\|).)+/s
 #);
 
 use Data::Dumper;
@@ -109,15 +115,14 @@ sub collect_template_info {
     say "collect_template_info:$parsetree";
 
     for(my $x = 0; $x <= $#parsetree; $x++) {
-        my $node = $parsetree[$x];
-        my $nextnode = $parsetree[$x+1];
+        my $prevnode =  $parsetree[$x-1];
+        my $node =      $parsetree[$x];
+        my $nextnode =  $parsetree[$x+1];
 
         if(ref($node) eq 'ARRAY') {
             collect_template_info($node, $current_template, $flag_in_template);
         } else {
             print "Examining node <<$node>>";
-            print " (current template: " . $current_template->{'template_name'} . ")"
-                if defined $current_template;
 
             if($node =~ /^Template:/) {
                 chomp $node;
@@ -125,10 +130,7 @@ sub collect_template_info {
                 if(ref($nextnode) eq 'ARRAY') {
                     print ": a node template!";
 
-                    my $new_template = {
-                        'template_name' => $node,
-                        'template_arrayref' => $nextnode
-                    };
+                    my $new_template = {};
                     collect_template_info($nextnode, $new_template, 1);
                     add_to_hash_of_lists($current_template, 'contains_templates', $new_template)
                         if defined $current_template;
@@ -145,14 +147,17 @@ sub collect_template_info {
             } elsif($flag_in_template) {
                 my @attributes;
 
-                add_to_hash_of_lists($current_template, 'contains_text', $node)
-                    if defined $current_template;
+                #add_to_hash_of_lists($current_template, 'contains_text', $node)
+                #    if defined $current_template;
 
                 if($node =~ /\|/) {
                     @attributes = split(/\s*\|\s*/, $node);
                 } else {
                     @attributes = ($node);
                 }
+
+                shift @attributes   if (defined($prevnode) and (ref($prevnode) eq 'ARRAY'));
+                pop @attributes     if (defined($nextnode) and (ref($nextnode) eq 'ARRAY'));
 
                 foreach my $attribute (@attributes) {
                     next if $attribute =~ /^\s*$/;
@@ -168,8 +173,10 @@ sub collect_template_info {
 
                     if(defined $value) {
                         $current_template->{$key} = $value;
+
                     } elsif(not defined $key) {
                         die "No key/value on splitting '$attribute'.";
+
                     } else {
                         my $last_number = $current_template->{'last_number'};
                         $last_number = 1 if not defined $last_number;
@@ -180,8 +187,9 @@ sub collect_template_info {
                         $current_template->{'last_number'} = $last_number;
                     }
                 }
+
             } else {
-                add_to_hash_of_lists($current_template, 'contains_text', $node);
+                # add_to_hash_of_lists($current_template, 'contains_text', $node);
             }
         }
 
