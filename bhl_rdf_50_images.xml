@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="file:/home/gaurav/code/art-of-life" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wccat="http://commons.wikimedia.org/wiki/Category:" xmlns:wcfile="http://commons.wikimedia.org/wiki/File:" xmlns:wctmpl="http://commons.wikimedia.org/wiki/Template:">
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Botanical%20Magazine%201581%20Dryandra%20floribunda.jpeg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/page/487134"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Banksia_sessilis"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Botanical_illustrations_of_Banksia"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Curtis's_Botanical_Magazine,_Volume_38"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Sydenham_Edwards"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cemophora%20coccineaHolbrookV3P30A.jpg">
+	<dc:description>Scarlet Snake , ''Cemophora coccinea''</dc:description>
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/bibliography/4997 "/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cemophora_coccinea"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:North_American_Herpetology_(Holbrook)"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20-Frontispiece%202.jpg">
+	<dc:description>Frontispiece 2</dc:description>
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20001.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/85/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Emesis_lucinda"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eupalamides"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Ortilia_liriope"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20002.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/68/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Actias_luna"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Amauris_niavius"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Calonotos_helymus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Papilio_phorcas"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20003.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/71/mode/1up "/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Aeropetes"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Charaxes_pelias"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Danaus_erippus"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20004.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/75/mode/1up "/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Dirphia"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Paiwarria_telemus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Trichura"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20005.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/79/mode/1up "/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Antheraea_polyphemus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Argina"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Polygonia_progne"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20006.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/page/30081374"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Evenus_gabriela"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Panthiades_aeolus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Taenaris_urania"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20007.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/85/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Brephos"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Papilio_gambrisius"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Phaenochitonia"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20008.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/88/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cepheuptychia_cephus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Junonia_atlites"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Orsotriaena_medus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Pyrrhogyra_neaerea"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Rothschildia_aurota"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20009.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/92/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Attacus_atlas"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Graphium_leonidas"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20010.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/95/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Chloreuptychia_herseis"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Euclystis"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eulepidotis_ilirias"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Troides_hypolitus"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20011.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/99/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Juditha_odites"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Orsotriaena_medus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Troides_hypolitus"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20012.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/102/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Archaeoprepona_meander"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Catopsilia_scylla"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eurybia_nicaeus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Vanessa_virginiensis"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20013.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/106/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Archonias_brassolis"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Copiopteryx_semiramis"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cyligramma_latona"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Euchromia_polymena"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Euplocamus_ophisa"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20014.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/109/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Argynnis_hyperbius"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Colias_palaeno"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Parides_ascanius"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20015.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/113/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eudmoe"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Macrodes"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Morpho_rhetenor"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Pseudapistosia"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20016.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/117/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Danaus_plexippus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Letis_marmorides"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Papilio_androgeus"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20017.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/120/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Delias_pasithoe"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eurytides_dolicaon"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Xanthocastnia"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20018.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/123/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Castnia_invaria"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Ergavia"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Nyctus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Ophthalmis_milete"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20019.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/126/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Junonia_orithya"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Morpho_menelaus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Polygonia_c-aureum"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20020.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/130/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Antirrhea_philoctetes"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eucereon_marica"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eurema_agave"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Pyrisitia_nise"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Theritas_hemon"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20021.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/135/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Junonia_evarete"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Junonia_oenone"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Morpho_menelaus"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20022.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/138/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Claterna_(Calpinae)"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Ephyriades"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Heliopetes_arsalte"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Historis_acheronta"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Nyctemera_tripunctaria"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Oleria_astrea"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20023.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/142/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Autochton_zarex"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Leptotes_cassius"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Ornithoptera_priamus"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20024.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/146/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Diaethria_clymena"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eunica_eurota"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Hypolimnas_pandarus"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20025.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/150/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Argynnis_pandora"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Siderone_galanthis"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Troides_helena"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20026.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/153/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Danaus_gilippus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Lycorea_ilione"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Melanitis_leda"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Vanessa_cardui"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20027.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/157/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eurema_albula"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eurema_phiale"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Morpho_achilles"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Strephonota_cyllarissus"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20028.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/161/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Hypolimnas_misippus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Morpho_achilles"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Sarota_gyas"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20029.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/164/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Antona_(Lithosiinae)"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cyclosia_papilionaris"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Dysphania_militaris"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eulepidotis_corrina"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Papilio_hyppason"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Parides_lysander"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20030.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/169/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Colla_(Bombycidae)"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Eudocima_cajeta"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Parantica_melaneus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Periphoba"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Pseudodirphia_agis"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20031.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/173/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Actias_luna"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Jamides_celeno"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Polites_peckius"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20032.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/177/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Chalcosia_ideaoides"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Junonia_orithya"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Papilio_memnon"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20033.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/180/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Caligo_eurilochus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Catocala_ilia"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20034.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/183/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Caligo_eurilochus"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Heliconius_egeria"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Cramer%26Stoll-uitlandsche%20kapellen%20vol.%201-%20plate%20035.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/title/43777#page/186/mode/1up"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Calonotos_phlegmon"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cosmosoma"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Cramer_and_Stoll:De_uitlandsche_kapellen"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Junonia_lemonias"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Junonia_oenone"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Curtis%27s%20Botanical%20Magazine%20-%20Plate%204633%20-%20Dryandra%20nobilis%20%28rotated%29.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/page/467150"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Banksia_nobilis"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Botanical_illustrations_of_Banksia"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Curtis's_Botanical_Magazine,_Volume_78"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Walter_Hood_Fitch"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Dryandra%20armata%20%28Curtis%27s%20Botanical%20Magazine%20Plate%203236%29.jpg">
+	<dc:source rdf:resource="http://biodiversitylibrary.org/page/481219"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Banksia_armata"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Botanical_illustrations_of_Banksia"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Curtis's_Botanical_Magazine,_Volume_60"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:William_Jackson_Hooker"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Dryandra%20longifolia%20%28The%20Botanical%20Magazine%20Plate%201582%29.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/page/487137"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Banksia_prolata"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Botanical_illustrations_of_Banksia"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Curtis's_Botanical_Magazine,_Volume_38"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Sydenham_Edwards"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Mammalia.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/page/570870"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Digital_libraries"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Harvard_University"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Library_and_information_science"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Unidentified_monkeys"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Sepp-Surinaamsche%20vlinders%20-%20pl%20005%20plate%20Dryas%20julia.jpg">
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/page/33053325"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Dryas_iulia"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Jan_Sepp:Surinaamsche_vlinders_-_vol._1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Sepp-Surinaamsche%20vlinders%20-%20pl%20059%20plate%20descr.%20as%20Glaucopis%20helymus.jpg">
+	<dc:description>Illustration of: unidentified butterfly, described as ''Glaucopis helymus''</dc:description>
+	<dc:source rdf:resource="http://www.biodiversitylibrary.org/page/33053585"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Jan_Sepp:Surinaamsche_vlinders_-_vol._2"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Unidentified_Lepidoptera_illustrations"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Transactions%20of%20the%20Linnean%20Society%20of%20London%2C%20Volume%2010%20-%20tab.%2024.jpg">
+	<dc:source rdf:resource="http://biodiversitylibrary.org/page/757517"/>
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Transactions_of_the_Linnean_Society_of_London,_Volume_10"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Transactions%20of%20the%20Linnean%20Society%20of%20London%2C%20Volume%2010%20Part%201.djvu">
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Transactions_of_the_Linnean_Society_of_London,_Volume_10"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Transactions%20of%20the%20Linnean%20Society%20of%20London%2C%20Volume%2010%20Part%202.djvu">
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Transactions_of_the_Linnean_Society_of_London,_Volume_10"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://commons.wikimedia.org/wiki/File:Transactions%20of%20the%20Linnean%20Society%20of%20London%2C%20Volume%208%20%281807%29.djvu">
+	<dc:subject rdf:resource="http://commons.wikimedia.org/wiki/Category:Transactions_of_the_Linnean_Society_of_London,_Volume_8"/>
+</rdf:Description>
+</rdf:RDF>
+
